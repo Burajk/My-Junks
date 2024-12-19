@@ -1,0 +1,11 @@
+my_dict={
+    "LOL":"İngilizce açılımı'LAUGH OUT LOUD' yani 'Sesli güldüm'"
+    "GPU":"İngilizce açılımı'Graphics Processing Unit' yani 'Grafik İşlem Ünitesi'"
+}
+word=input("Which word would ya wanna learn about?\n")
+while true:
+    if word in my_dict.keys():
+        print(my_dict[word])
+        break
+    else:
+        word=input("This word is not in our dictionary. Please try another one.\n")
